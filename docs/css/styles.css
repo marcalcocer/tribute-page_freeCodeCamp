@@ -1,8 +1,82 @@
-#image{
+body{
+  text-align: center;
+  font-family: Verdana;   
+}
+
+main{  
+  background-color: white;  
+}
+
+h2{
+  font-family: Georgia; 
+  text-decoration: underline;
+}
+
+#image {
+    width: 30%;
     max-width: 100%;
-    max-height: auto;
-    display:block;
-  }
+    height: auto;
+    display: block;
+    margin: auto;            
+}
+
+#img-div{  
+  height: auto;  
+  margin-bottom: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;  
+}
+
+#img-caption {
+  margin-top: 0.5%;
+}
+
+#tribute-info{
+  padding: 1% 0 1% 0;  
+}
   
-  #img-div{  
-  }
+.text{
+  text-align: justify;
+  margin: 0 20% 0 20%;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.section{
+  margin-bottom: 3%;
+}
+
+.table{
+  text-align: center;
+  margin: auto;
+}
+
+.footer{
+  font-size: 20px;
+}
+
+hr{
+  width: 50%;
+}
+
+table {  
+  border-collapse: collapse;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: center;
+  padding: 8px;
+  width: 5%;
+}
+
+tr:nth-child(even) {
+  /*background-color: #dddddd;*/
+}
